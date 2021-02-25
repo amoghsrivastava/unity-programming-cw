@@ -162,6 +162,8 @@ public class PlayerController : MonoBehaviour
         // Play die animation
         animator.SetBool("IsDead", true);
 
+        FindObjectOfType<GameManager>().EndGame(playerHealth.CurrentHealth);
+
         // Disable player script to disable all further actions from it.
         GetComponent<Collider>().enabled = false; // Disables the player collider so that the enemy cannot still attack the player
         this.enabled = false; // Disables the full script
