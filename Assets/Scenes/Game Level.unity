@@ -18766,7 +18766,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemy: {fileID: 8049038196571314693, guid: 29b0d88918eb8964aba3347912b179cd, type: 3}
-  numberOfEnemies: 4
+  numberOfEnemies: 6
 --- !u!1 &2021745528 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1458573784885960, guid: 6910e2407cd484a42a0c2598114751a0,

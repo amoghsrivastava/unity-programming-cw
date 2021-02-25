@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
         if (gameIsOver == false)
         {
             gameoverScreen.Setup(health);
+            gameIsOver = true;
         }
         
     }
